@@ -1,17 +1,21 @@
-// import "../../styles/components/Button/Button.css";
+import "../../../styles/components/Tag/TagList/TagList.css";
+import TagItem from "../TagItem/TagItem"
 
-const TagList = () => {
+const TagList = ({ tags }) => {
     return (
-        <div>
-            
+        <div className="tagList">
+            <h5>Tags :</h5>
+            <div className="tagList-container">
+                {tags.map((tag, index) => (
+                    <TagItem key={`${tag}-${index}`} name={tag} />
+                ))}
+            </div>
         </div>
     )
 }
 
 TagList.defaultProps = {
-    // text: "Button",
-    // filled: false,
-    // link: "www.google.com"
+    tags: ["Tag1", "Tag2", "Tag3"]
 }
 
 export default TagList

@@ -1,4 +1,11 @@
-// @import "../../base/styles/texts";
-// @import "../../utils/styles/mixins";
-// @import "../../utils/styles/variables";
-
+.tagList {
+    position: relative;
+    top: 50px;
+    display: flex;
+    gap: 18px;
+    &-container {
+        display: flex;
+        gap: 18px;
+        align-items: center;
+    }
+}

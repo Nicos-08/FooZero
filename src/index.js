@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import TagItem from "./components/Tag/TagItem/TagItem"
+import TagList from "./components/Tag/TagList/TagList"
 import "./styles/base/default.css"
 import "./styles/base/fonts.css"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <TagItem />
+    <TagList tags={["Cuisine", "Repas", "Loul"]} />
   </React.StrictMode>
 );
