@@ -4,7 +4,7 @@ const Button = ({ text, filled, link }) => {
     return (
         <div>
             {filled ?
-                <div onClick={link} className="button filled">
+                <div onClick={link} className="button --filled">
                     <h5>{text}</h5>
                 </div> :
                 <div onClick={link} className="button">

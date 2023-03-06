@@ -153,10 +153,10 @@ span.portfolioCategoris {
 .button h5 {
   padding: 20px 46px 20px 46px;
 }
-.button.filled {
+.button--filled {
   background-color: #5E6600;
 }
-.button.filled h5 {
+.button--filled h5 {
   color: white;
 }
 
