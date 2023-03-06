@@ -1,0 +1,19 @@
+@import "../../base/styles/texts";
+@import "../../utils/styles/mixins";
+@import "../../utils/styles/variables";
+
+.button {
+    display: inline-block;
+    height: 88px;
+    border: 2px solid $black;
+    cursor: pointer;
+    h5 {
+        padding: 20px 46px 20px 46px;
+    }
+    &.filled {
+        background-color: $poopGreen;
+        h5 {
+            color: white;
+        }
+    }
+}

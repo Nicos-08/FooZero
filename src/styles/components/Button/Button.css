@@ -1,0 +1,74 @@
+h1 {
+  font-family: "Rufina";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 108px;
+  line-height: 120px;
+}
+
+h2 {
+  font-family: "Rufina";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 88px;
+  line-height: 120%;
+}
+
+h3 {
+  font-family: "Rufina";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 68px;
+  line-height: 84px;
+}
+
+h4 {
+  font-family: "Rufina";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+}
+
+h5 {
+  font-family: "Rufina";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+h6 {
+  font-family: "Rufina";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 48px;
+}
+
+p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+}
+
+.button {
+  display: inline-block;
+  height: 88px;
+  border: 2px solid #000000;
+  cursor: pointer;
+}
+.button h5 {
+  padding: 20px 46px 20px 46px;
+}
+.button.filled {
+  background-color: #5E6600;
+}
+.button.filled h5 {
+  color: white;
+}
+
+/*# sourceMappingURL=Button.css.map */
