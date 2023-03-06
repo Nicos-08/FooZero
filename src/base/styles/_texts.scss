@@ -27,3 +27,43 @@ h6 {
 p {
     @include body;
 }
+
+p.blod {
+    @include bodyBlod
+}
+
+p.cap {
+    @include bodyCap
+}
+
+span.excerpt {
+    @include excerpt
+}
+
+span.label {
+    @include label
+}
+
+span.widgetsComments {
+    @include widgetsComments
+}
+
+span.navItems {
+    @include navItems
+}
+
+span.navSubitem {
+    @include navSubitem
+}
+
+span.widgetsTitle {
+    @include widgetsTitle
+}
+
+span.widgetsText {
+    @include widgetsText
+}
+
+span.portfolioCategoris {
+    @include portfolioCategoris
+}

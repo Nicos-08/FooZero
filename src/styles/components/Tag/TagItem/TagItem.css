@@ -144,20 +144,14 @@ span.portfolioCategoris {
   letter-spacing: 0.02em;
 }
 
-.button {
+.tagItem {
   display: inline-block;
-  height: 88px;
-  border: 2px solid #000000;
-  cursor: pointer;
+  height: 42px;
+  border: 1px solid #000000;
 }
-.button h5 {
-  padding: 20px 46px 20px 46px;
-}
-.button.filled {
-  background-color: #5E6600;
-}
-.button.filled h5 {
-  color: white;
+.tagItem span {
+  display: inline-block;
+  padding: 10px 20px 10px 20px;
 }
 
-/*# sourceMappingURL=Button.css.map */
+/*# sourceMappingURL=TagItem.css.map */
