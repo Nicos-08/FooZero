@@ -1,17 +1,15 @@
 import "../../../styles/components/Tag/TagItem/TagItem.css";
 
-const TagItem = () => {
+const TagItem = ({ name }) => {
     return (
         <div className="tagItem">
-            <span className="label">Design</span>
+            <span className="label">{name}</span>
         </div>
     )
 }
 
 TagItem.defaultProps = {
-    // text: "Button",
-    // filled: false,
-    // link: "www.google.com"
+    name: "Tag"
 }
 
 export default TagItem
