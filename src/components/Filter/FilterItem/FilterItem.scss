@@ -1,0 +1,20 @@
+@import "../../../base/styles/texts";
+@import "../../../utils/styles/mixins";
+@import "../../../utils/styles/variables";
+
+
+.filterItem {
+    display: inline-block;
+    span {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 140%;
+        letter-spacing: 0.06em;
+        color: $black;
+    }
+    .line {
+        border: 2px dashed $black;
+    }
+}
