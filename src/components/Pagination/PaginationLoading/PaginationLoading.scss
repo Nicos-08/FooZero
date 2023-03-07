@@ -1,0 +1,14 @@
+@import "../../../base/styles/texts";
+@import "../../../utils/styles/mixins";
+@import "../../../utils/styles/variables";
+
+.paginationLoading {
+    display: inline-block;
+    height: 54px;
+    border: 2px solid $black;
+    p {
+        color: $black;
+        display: inline-block;
+        padding: 10px 20px 10px 20px;
+    }
+}
