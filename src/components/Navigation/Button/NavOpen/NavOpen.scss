@@ -1,0 +1,12 @@
+@import "../../../../utils/styles/variables";
+
+.navOpen {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    cursor: pointer;
+    &-line {
+        width: 46px;
+        border: 2px solid $black;
+    }
+}
