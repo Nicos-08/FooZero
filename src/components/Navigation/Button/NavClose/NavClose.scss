@@ -1,0 +1,17 @@
+@import "../../../../utils/styles/variables";
+
+.navClose {
+    margin-top: 20px;
+    &-line1 {
+        position: absolute;
+        border: 2px solid $black;
+        width: 40px;
+        transform: matrix(0.71, 0.7, -0.71, 0.7, 0, 0);
+    }
+    &-line2 {
+        position: absolute;
+        border: 2px solid $black;
+        width: 40px;
+        transform: matrix(0.71, -0.7, 0.71, 0.7, 0, 0);
+    }
+}
