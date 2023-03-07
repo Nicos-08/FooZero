@@ -1,16 +1,17 @@
 import "../../../styles/components/Filter/FilterItem/FilterItem.css";
 
-const FilterItem = ({ itemName }) => {
+const FilterItem = ({ itemName, dashed }) => {
     return (
         <div className="filterItem">
             <span>{itemName}</span>
-            <div className="line"></div>
+            {dashed && <div className="line"></div>}
         </div>
     )
 }
 
 FilterItem.defaultProps = {
-    itemName: "Item"
+    itemName: "Item",
+    dashed: false
 }
 
 export default FilterItem
