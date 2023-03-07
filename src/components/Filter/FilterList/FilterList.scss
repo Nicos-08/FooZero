@@ -1,11 +1,5 @@
-.tagList {
-    position: relative;
-    top: 50px;
+.filterList {
     display: flex;
-    gap: 18px;
-    &-container {
-        display: flex;
-        gap: 18px;
-        align-items: center;
-    }
+    gap: 48px;
+    align-items: center;
 }
