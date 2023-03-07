@@ -1,0 +1,12 @@
+@import "../../../base/styles/texts";
+@import "../../../utils/styles/mixins";
+@import "../../../utils/styles/variables";
+
+.paginationDefault {
+    display: flex;
+    gap: 40px;
+    &-pages {
+        display: flex;
+        gap: 40px;
+    }
+}
