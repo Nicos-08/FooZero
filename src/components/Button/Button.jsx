@@ -1,13 +1,13 @@
 import "../../styles/components/Button/Button.css";
 
-const Button = ({ text, filled, link }) => {
+const Button = ({ text, filled }) => {
     return (
         <div>
             {filled ?
-                <div onClick={link} className="button --filled">
+                <div className="button --filled">
                     <h5>{text}</h5>
                 </div> :
-                <div onClick={link} className="button">
+                <div className="button">
                     <h5>{text}</h5>
                 </div>
             }
@@ -17,8 +17,7 @@ const Button = ({ text, filled, link }) => {
 
 Button.defaultProps = {
     text: "Button",
-    filled: false,
-    link: "www.google.com"
+    filled: false
 }
 
 export default Button
