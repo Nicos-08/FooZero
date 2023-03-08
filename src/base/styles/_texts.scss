@@ -48,8 +48,9 @@ span.widgetsComments {
     @include widgetsComments
 }
 
-span.navItems {
-    @include navItems
+li.navItem {
+    @include navItems;
+    list-style: disc;
 }
 
 span.navSubitem {

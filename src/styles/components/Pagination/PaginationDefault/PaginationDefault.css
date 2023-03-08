@@ -101,13 +101,14 @@ span.widgetsComments {
   letter-spacing: 0.02em;
 }
 
-span.navItems {
+li.navItem {
   font-family: "Rufina";
   font-style: normal;
   font-weight: 700;
   font-size: 66px;
   line-height: 82px;
   text-transform: uppercase;
+  list-style: disc;
 }
 
 span.navSubitem {

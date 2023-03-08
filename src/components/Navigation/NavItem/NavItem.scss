@@ -1,0 +1,18 @@
+@import "../../../utils/styles/mixins";
+@import "../../../base/styles/texts";
+
+.navigationItem {
+    user-select: none;
+    display: inline-block;
+    margin-left: 60px;
+    .navItem {
+        cursor: pointer;    
+    }
+    .subItems {
+        display: inline-block;
+        margin-left: 15px;
+        .navSubitem {
+            cursor: pointer;
+        }
+    }
+}

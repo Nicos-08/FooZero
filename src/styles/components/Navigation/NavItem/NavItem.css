@@ -144,14 +144,20 @@ span.portfolioCategoris {
   line-height: 140%;
 }
 
-.paginationDefaultItem {
+.navigationItem {
+  user-select: none;
   display: inline-block;
-  height: 54px;
-  border: 2px solid #000000;
+  margin-left: 60px;
 }
-.paginationDefaultItem p {
-  color: #000000;
-  padding: 10px 20px 10px 20px;
+.navigationItem .navItem {
+  cursor: pointer;
+}
+.navigationItem .subItems {
+  display: inline-block;
+  margin-left: 15px;
+}
+.navigationItem .subItems .navSubitem {
+  cursor: pointer;
 }
 
-/*# sourceMappingURL=PaginationDefaultItem.css.map */
+/*# sourceMappingURL=NavItem.css.map */
