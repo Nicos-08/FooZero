@@ -25,7 +25,7 @@ nav .nav-leftPart {
   align-items: center;
   gap: 69px;
 }
-nav img {
+nav .nav-leftPart img {
   max-width: 307px;
   max-height: 115px;
 }
