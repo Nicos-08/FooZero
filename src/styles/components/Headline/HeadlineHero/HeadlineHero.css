@@ -152,20 +152,13 @@ span.portfolioCategoris {
   line-height: 140%;
 }
 
-.filterItem {
-  display: inline-block;
+.heroHeading {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
-.filterItem span {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 34px;
-  line-height: 140%;
-  letter-spacing: 0.06em;
-  color: #000000;
-}
-.filterItem .line {
-  border: 2px dashed #000000;
+.heroHeading span, .heroHeading p {
+  color: #FFFFFF;
 }
 
-/*# sourceMappingURL=FilterItem.css.map */
+/*# sourceMappingURL=HeadlineHero.css.map */

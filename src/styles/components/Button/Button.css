@@ -1,3 +1,11 @@
+span.heroHeading {
+  font-family: "Rufina";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 148px;
+  line-height: 152px;
+}
+
 h1 {
   font-family: "Rufina";
   font-style: normal;

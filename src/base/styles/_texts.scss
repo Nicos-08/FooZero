@@ -1,5 +1,9 @@
 @import "../../utils/styles/mixins";
 
+span.heroHeading {
+    @include heroHeading;
+}
+
 h1 {
     @include heading1;
 }

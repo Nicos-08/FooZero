@@ -1,0 +1,10 @@
+@import "../../../base/styles/texts";
+
+.heroHeading {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    span, p {
+        color: $white;
+    }
+}
