@@ -155,17 +155,24 @@ span.portfolioCategoris {
 .button {
   display: inline-block;
   height: 88px;
-  border: 2px solid #000000;
+  border: 2px solid #FFFFFF;
   cursor: pointer;
 }
 .button h5 {
   padding: 20px 46px 20px 46px;
+  color: #FFFFFF;
 }
 .button--filled {
   background-color: #5E6600;
 }
 .button--filled h5 {
-  color: white;
+  color: white !important;
+}
+.button--black {
+  border: 2px solid #000000;
+}
+.button--black h5 {
+  color: #000000;
 }
 
 /*# sourceMappingURL=Button.css.map */

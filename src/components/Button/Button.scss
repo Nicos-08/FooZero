@@ -5,15 +5,22 @@
 .button {
     display: inline-block;
     height: 88px;
-    border: 2px solid $black;
+    border: 2px solid $white;
     cursor: pointer;
     h5 {
         padding: 20px 46px 20px 46px;
+        color: $white;
     }
     &--filled {
         background-color: $poopGreen;
         h5 {
-            color: white;
+            color: white !important;
+        }
+    }
+    &--black {
+        border: 2px solid $black;
+        h5 {
+            color: $black;
         }
     }
 }

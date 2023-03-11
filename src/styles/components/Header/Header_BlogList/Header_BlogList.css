@@ -1,0 +1,23 @@
+.headerBlogList {
+  height: 850px;
+  width: 100vw;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background-size: cover;
+  background-position: center;
+}
+.headerBlogList-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+.headerBlogList h1 {
+  color: #FFFFFF;
+}
+.headerBlogList p {
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=Header_BlogList.css.map */
