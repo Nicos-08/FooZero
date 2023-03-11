@@ -14,7 +14,7 @@ const Button = ({ text, filled, black }) => {
                 }
             }
         }
-    , [])
+    , [black, filled])
     return (
         <div className= {buttonPropreties}>
             <h5>{text}</h5>
