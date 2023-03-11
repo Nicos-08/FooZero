@@ -1,0 +1,18 @@
+@import "../../../utils/styles/mixins";
+
+.headingDivider {
+    display: inline-block;
+    span {
+        font-family: 'Rufina';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 88px;
+        line-height: 120%;
+        letter-spacing: 14px;
+        text-transform: uppercase;
+        color: $black;
+    }
+    .line {
+        border: 2px dashed $black;
+    }
+}
