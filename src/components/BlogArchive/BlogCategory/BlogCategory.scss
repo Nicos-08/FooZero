@@ -1,0 +1,16 @@
+@import "../../../utils/styles/mixins";
+@import "../../../base/styles/texts";
+
+.blogCategory {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 203px;
+    height: 62px;
+    background-color: $poopGreen;
+    p {
+        color: $white;
+        padding: 0 20px 0 20px;
+    }
+}
