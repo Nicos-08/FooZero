@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import HeaderBlogList from './components/Header/Header_BlogList/Header_BlogList';
-import Loul from "./assets/pictures/loul.jpg"
+import BlogPostTitleAndExcerpt from './components/BlogArchive/BlogPostTitle+Excerpt/BlogPostTitle+Excerpt';
 import "./styles/base/default.css"
 import "./styles/base/fonts.css"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <HeaderBlogList imageSrc={Loul} subtitle="J'aime le couscous, la croziflette et les gnocchis" title="Loul le vrai OFF" />
+    <BlogPostTitleAndExcerpt title="Loul le vrai VS Loul le faux, le duel" subtitle="Ceci est un article fortement intéressant et il serait nécessaire que vous le lisiez !" />
   </React.StrictMode> 
 );

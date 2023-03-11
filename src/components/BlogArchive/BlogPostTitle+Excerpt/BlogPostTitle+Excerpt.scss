@@ -1,0 +1,12 @@
+@import "../../../utils/styles/mixins";
+@import "../../../base/styles/texts";
+
+.blogPostTitleAndExcerpt {
+    max-width: 645px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    &-line {
+        border: 2px dashed $black;
+    }
+}
