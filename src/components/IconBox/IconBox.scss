@@ -1,0 +1,26 @@
+@import "../../utils/styles/mixins";
+@import "../../base/styles/texts";
+
+.iconBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 39px;
+    width: 508px;
+    &-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: $whiteGreen;
+        height: 260px;
+        width: 260px;
+        border-radius: 100%;
+        i {
+            font-size: 10em;
+        }
+    }
+    p {
+        text-align: center;
+    }   
+}
