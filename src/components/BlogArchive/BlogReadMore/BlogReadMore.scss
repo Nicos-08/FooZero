@@ -1,0 +1,10 @@
+@import "../../../base/styles/texts";
+
+.blogReadMore {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    i {
+        font-size: 32px;
+    }
+}

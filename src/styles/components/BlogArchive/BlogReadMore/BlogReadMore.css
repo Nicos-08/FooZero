@@ -1,0 +1,164 @@
+span.heroHeading {
+  font-family: "Rufina";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 148px;
+  line-height: 152px;
+}
+
+h1 {
+  font-family: "Rufina";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 108px;
+  line-height: 120px;
+}
+
+h2 {
+  font-family: "Rufina";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 88px;
+  line-height: 120%;
+}
+
+h3 {
+  font-family: "Rufina";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 68px;
+  line-height: 84px;
+}
+
+h4 {
+  font-family: "Rufina";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+}
+
+h5 {
+  font-family: "Rufina";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+h6 {
+  font-family: "Rufina";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 48px;
+}
+
+p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+}
+
+p.blod {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+}
+
+p.cap {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+span.excerpt {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+}
+
+span.label {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+}
+
+span.widgetsComments {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+}
+
+li.navItem {
+  font-family: "Rufina";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 66px;
+  line-height: 82px;
+  text-transform: uppercase;
+  list-style: disc;
+}
+
+span.navSubitem {
+  font-family: "Rufina";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+span.widgetsTitle {
+  font-family: "Rufina";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 126%;
+}
+
+span.widgetsText {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+}
+
+span.portfolioCategoris {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+}
+
+.blogReadMore {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.blogReadMore i {
+  font-size: 32px;
+}
+
+/*# sourceMappingURL=BlogReadMore.css.map */
