@@ -1,0 +1,15 @@
+@import "../../../base/styles/texts";
+@import "../../../utils/styles/mixins";
+
+.blogMetaDataSmall {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: $poopGreen;
+    &-divider {
+        width: 4px;
+        height: 4px;
+        background-color: $poopGreen;
+        border-radius: 100%;
+    }
+}
